@@ -1,0 +1,38 @@
+{
+  "name": "tmc22xx-driver",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sample:1": "ts-node example/sample-1.ts"
+  },
+  "keywords": [
+    "tmc2208", "tmc220x", "tmc22xx"
+  ],
+  "author": "Joseph Lee <joseph@jc-lab.net>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "serialport": "^9.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.4",
+    "@types/serialport": "^8.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "ts-node": "^10.2.1",
+    "tsc": "^2.0.3",
+    "typescript": "^4.4.2"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseph-jclab/tmc22xx-driver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joseph-jclab/tmc22xx-driver/issues"
+  },
+  "homepage": "https://github.com/joseph-jclab/tmc22xx-driver#readme",
+  "description": ""
+}
